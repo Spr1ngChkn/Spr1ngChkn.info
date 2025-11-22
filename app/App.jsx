@@ -4,7 +4,7 @@ import InstagramVideoEmbed from './InstagramVideoEmbed'; // Create this componen
 const App = () => {
     return (
         <div className="app">
-            <h1>Spr1ngChkn.info</h1>
+            <h1>Spr1ngChkn</h1>
             <InstagramVideoEmbed />
         </div>
     );

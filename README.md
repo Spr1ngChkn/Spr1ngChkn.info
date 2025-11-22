@@ -1,4 +1,4 @@
-# Spr1ngChkn.info
+# Spr1ngChkn
 A Basic React Stack developed with D2G on Koder. 
 
 
