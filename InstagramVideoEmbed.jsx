@@ -17,8 +17,7 @@ const InstagramVideoEmbed = () => {
                     src={`https://www.instagram.com/p/DD-ZQ4Vzbdf/embed`}
                     width="400"
                     height="500"
-                    frameBorder="0"
-                    allowTransparency={true}
+                    style={{ border: 0 }}
                     allow="encrypted-media"
                     title="Instagram Reel"
                     onError={handleLoadError}
