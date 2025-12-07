@@ -16,7 +16,9 @@ const CreateRepoForm = () => {
 
         // In a real implementation, this would call the GitHub API
         // For now, we'll just show a success message with the repo details
-        setMessage(`Repository "${repoName}" would be created as ${isPrivate ? 'private' : 'public'}${description ? ' with description: ' + description : ''}`);
+        const visibility = isPrivate ? 'private' : 'public';
+        const descriptionText = description ? ` with description: ${description}` : '';
+        setMessage(`Repository "${repoName}" would be created as ${visibility}${descriptionText}`);
         
         // Reset form
         setRepoName('');
